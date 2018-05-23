@@ -2,4 +2,5 @@ applications:
 - name: 12factor 
   memory: 64M
   disk_quota: 128M
+  buildpack: ruby_buildpack
   random-route: true
