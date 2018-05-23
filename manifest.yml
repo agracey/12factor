@@ -3,4 +3,3 @@ applications:
   memory: 64M
   disk_quota: 128M
   random-route: true
-  buildpack: ruby_buildpack
