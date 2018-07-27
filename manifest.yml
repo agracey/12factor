@@ -1,4 +1,4 @@
 applications:
-- name: 12factor 
+- name: 12factor-alt
   memory: 64M
   buildpack: ruby_buildpack
