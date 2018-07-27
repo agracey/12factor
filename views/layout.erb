@@ -16,7 +16,7 @@
   <script type="text/javascript" src="//use.typekit.com/rsq7tro.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
-<body color="yellow">
+<body>
   <% if ENV['GOOGLE_TAG_MANAGER_ACCOUNT'] %>
   <!-- Google Tag Manager -->
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=<%= ENV['GOOGLE_TAG_MANAGER_ACCOUNT'] %>"
@@ -30,7 +30,7 @@
   <% end %>
 
   <header>
-    <h1><a href="./" title="The Twelve-Factor App">The Twelve-Factor App</a></h1>
+    <h1><a href="./" title="The Thirteen Factor App">The Thirteen-Factor App</a></h1>
   </header>
 
   <%= yield %>
