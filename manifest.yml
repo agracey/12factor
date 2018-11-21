@@ -1,5 +1,9 @@
 applications:
 - name: 12factor 
   memory: 64M
+<<<<<<< HEAD
   disk_quota: 256M
+=======
+  disk_quota: 128M
+>>>>>>> master
   buildpack: ruby_buildpack
